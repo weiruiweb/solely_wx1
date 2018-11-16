@@ -1,0 +1,25 @@
+<!--User.wxml-->
+<view class="w710" style="height:100%;">
+	<view class="state">
+		<view class="state_right">
+			<view class="state_right_box">
+				<view class="state_top flex font30">
+					标题标题标题标题标题标题标题
+				</view>
+				<view class="state_top flex">
+					<view class="font24 color3" style="width:75%;">标题标题标题标题标题</view>
+					<view class="font24 color3" style="width:25%; text-align: right;">2016-9-9</view>
+				</view>
+				<view class="font26 color9">
+				标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题
+				</view>
+				<image src="/images/banner.png"></image>
+				<view class="font26 color9">
+				标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题
+				</view>
+			</view>
+			
+		</view>
+	</view>
+</view>
+

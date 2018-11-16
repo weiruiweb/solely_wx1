@@ -1,0 +1,29 @@
+<!--User.wxml-->
+<view class="w710">
+	<view class="project" bindtap="intoPath" data-path="/pages/userProjectDetail/userProjectDetail">
+		<view class="project_name flex">
+			<view class="name_box">
+				<view class="name_cont font32 color1">项目一</view>
+			</view>
+		</view>
+		<view class="project_cont">
+			<view class="cont_box font26 color6 w710">
+				内容内容内容内容内容内容内容内容内容内容内容内容内容 内容内容内容内容内容内容内容内容内容内容内容内容
+				内容内容内容内容内容内容内容内容内容内容内容内容内容 内容内容内容内容内容内容内容内容内容内容内容内容
+			</view>
+		</view>
+	</view>
+	<view class="project" bindtap="intoPath" data-path="/pages/userProjectDetail/userProjectDetail">
+		<view class="project_name flex">
+			<view class="name_box">
+				<view class="name_cont font32 color1">项目一</view>
+			</view>
+		</view>
+		<view class="project_cont">
+			<view class="cont_box font26 color6 w710">
+				内容内容内容内容内容内容内容内容内容内容内容内容内容 内容内容内容内容内容内容内容内容内容内容内容内容
+				内容内容内容内容内容内容内容内容内容内容内容内容内容 内容内容内容内容内容内容内容内容内容内容内容内容
+			</view>
+		</view>
+	</view>
+</view>

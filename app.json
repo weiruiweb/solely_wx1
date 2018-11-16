@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/case/case",
+    "pages/user/user",
+    "pages/information/information",
+    "pages/informationDetail/informationDetail",
+    "pages/userMessage/userMessage",
+    "pages/userInfor/userInfor",
+    "pages/userProject/userProject",
+    "pages/userProjectDetail/userProjectDetail",
+    "pages/userProjectState/userProjectState",
+    "pages/userResume/userResume",
+    "pages/login/login"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "纯粹科技",
+    "navigationBarTextStyle": "black"
+  }
+}

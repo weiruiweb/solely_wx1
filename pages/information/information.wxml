@@ -1,0 +1,85 @@
+<!--index1.wxml-->
+<view class="tab font30 flexRowBetween">
+    <view class="tab_item {{currentId == 0?'tab_this':''}}" data-id="0" bindtap="tab">
+        企业动态
+    </view>
+    <view class="tab_item {{currentId == 1?'tab_this':''}}" data-id="1"  bindtap="tab">
+        合作须知
+    </view>
+</view>
+<view class="w710" style="{{currentId == 0?'display:block':'display:none'}}">
+    <view class="product flexRowBetween w710" bindtap="intoPath" data-path="/pages/informationDetail/informationDetail">
+        <view class="product_box flexRowBetween">
+            <view class="product_left">
+                <image src="/images/case1.jpg"></image>
+            </view>
+            <view class="product_right flexRowBetween">
+                <view class="product_detail">
+                    <view class="font32 product_top">空间+导示</view>
+                    <view class="font26 color6 product_center">内容内容内容内容内容内容内容内容内容内 内容内容内容内容内容内容内容内容内</view>
+                    <view class="font24 color9 product_top">
+                       2018-09-09
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="product flexRowBetween w710" bindtap="intoPath" data-path="/pages/informationDetail/informationDetail">
+        <view class="product_box flexRowBetween">
+            <view class="product_left">
+                <image src="/images/case1.jpg"></image>
+            </view>
+            <view class="product_right flexRowBetween">
+                <view class="product_detail">
+                    <view class="font32 product_top">空间+导示</view>
+                    <view class="font26 color6 product_center">内容内容内容内容内容内容内容内容内容内 内容内容内容内容内容内容内容内容内</view>
+                    <view class="font24 color9 product_top">
+                       2018-09-09
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+<view class="w710 state" style="{{currentId == 1?'display:block':'display:none'}}">
+        <view class="state_right">
+            <view class="state_right_box">
+                <view class="state_top flex font30">
+                    标题标题标题标题标题标题标题
+                </view>
+                <view class="font26 color6 state_cont">
+                标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题
+                </view>
+                <view class="font26 color6 state_cont">
+                标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题
+                </view>
+            </view>
+            
+        </view>
+    </view>
+<view class="navbar">
+    <view class="navbar_item"  bindtap="intoPathRedirect" data-path="/pages/index/index">
+        <view class="nav_img">
+          <image src="/images/navbar1.png"></image>
+        </view>
+        <view class="text">首页</view>
+    </view>
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/case/case">
+        <view class="nav_img">
+           <image src="/images/navbar2.png"></image>
+        </view>
+        <view class="text">行业案例</view>
+    </view>
+    <view class="navbar_item" >
+        <view class="nav_img">
+           <image src="/images/navbar3-a.png"></image>
+        </view>
+        <view class="text this-text">资讯中心</view>
+    </view>
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/user/user">
+        <view class="nav_img">
+            <image src="/images/navbar4.png"></image>
+        </view>
+        <view class="text">个人中心</view>
+    </view>
+</view>
