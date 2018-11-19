@@ -66,28 +66,28 @@
         <text class="text1">推荐案例</text>
     </view>
     <view class="w710 index_product flexRowBetween">
-        <view class="recommend_left">
+        <view class="recommend_left" bindtap="intoPath" data-path="/pages/informationDetail/informationDetail">
             <image src="/images/case1.jpg"></image>
             <view class="product_name font30 flexCenter">
                 <image src="/images/navbar1.png"></image>
                 <text class="font24 color6">名称名称名称名称</text>
             </view>
         </view>
-        <view class="recommend_left">
+        <view class="recommend_left" bindtap="intoPath" data-path="/pages/informationDetail/informationDetail">
             <image src="/images/case1.jpg"></image>
             <view class="product_name font30 flexCenter">
                 <image src="/images/navbar1.png"></image>
                 <text class="font24 color6">名称名称名称名称</text>
             </view>
         </view>
-        <view class="recommend_left">
+        <view class="recommend_left" bindtap="intoPath" data-path="/pages/informationDetail/informationDetail">
             <image src="/images/case1.jpg"></image>
             <view class="product_name font30 flexCenter">
                 <image src="/images/navbar1.png"></image>
                 <text class="font24 color6">名称名称名称名称</text>
             </view>
         </view>
-        <view class="recommend_left">
+        <view class="recommend_left" bindtap="intoPath" data-path="/pages/informationDetail/informationDetail">
             <image src="/images/case1.jpg"></image>
             <view class="product_name font30 flexCenter">
                 <image src="/images/navbar1.png"></image>
@@ -109,7 +109,7 @@
              <image src="/images/case1.jpg"></image>
             </view>
           </view>
-          <view class="case_right">
+          <view class="case_right"  bindtap="intoPath" data-path="/pages/informationDetail/informationDetail">
             <view class="right_in">
               <view class="text1  font24">案例展示案例展示案例展示案例展示案例展示案例展示案例展示</view>
               <view class="right_more">
@@ -120,7 +120,7 @@
       </view>
 
       <view class="case_bottom flexRowBetween">
-        <view class="case_right">
+        <view class="case_right"  bindtap="intoPath" data-path="/pages/informationDetail/informationDetail">
             <view class="right_in">
             <view class="text1 font24"></view>
             <view class="right_more">

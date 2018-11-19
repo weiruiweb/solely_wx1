@@ -41,6 +41,7 @@ page{
 	background: #fff;
 	position: absolute;
 	top:-100%;
+	transition:all 0.3s;
 }
 .menu_choose{
 	height:90rpx;
@@ -57,4 +58,5 @@ page{
 	text-align:center;
 	line-height: 68rpx;
 	margin-bottom: 30rpx;
+	margin-right:12rpx;
 }

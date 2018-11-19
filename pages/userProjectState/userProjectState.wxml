@@ -1,6 +1,6 @@
 <!--User.wxml-->
 <view class="w710" style="height:100%;">
-	<view class="state">
+	<view class="state" bindtap="intoPath" data-path="/pages/userProjectState1/userProjectState1">
 		<view class="state_cont flex">
 			<view class="state_left flex">
 				<view class="circle"></view>
@@ -22,7 +22,7 @@
 			</view>
 		</view>
 	</view>
-	<view class="state">
+	<view class="state"  bindtap="intoPath" data-path="/pages/userProjectState1/userProjectState1">
 		<view class="state_cont flex">
 			<view class="state_left flex">
 				<view class="circle"></view>
@@ -44,7 +44,7 @@
 			</view>
 		</view>
 	</view>
-	<view class="state">
+	<view class="state"  bindtap="intoPath" data-path="/pages/userProjectState1/userProjectState1">
 		<view class="state_cont flex">
 			<view class="state_left flex">
 				<view class="circle"></view>

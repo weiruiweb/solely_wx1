@@ -10,6 +10,7 @@
     "pages/userProject/userProject",
     "pages/userProjectDetail/userProjectDetail",
     "pages/userProjectState/userProjectState",
+    "pages/userProjectState1/userProjectState1",
     "pages/userResume/userResume",
     "pages/login/login"
 

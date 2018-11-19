@@ -12,35 +12,26 @@
     </view>
     <view class="sort_module">
       <view class="font30" style="width:100%;height:98rpx;line-height: 106rpx;">行业</view>
-      <view class="menu_all flexRowBetween">
+      <view class="menu_all flex">
         <view class="menu_item font26 color6" data-id="0" bindtap="this_choose" style="{{currentId==0?'background:#dcfcff':''}}">小程序</view>
-        <view class="menu_item font26 color6" data-id="1" bindtap="this_choose">小程序</view>
+        <view class="menu_item font26 color6" data-id="1" style="{{currentId==1?'background:#dcfcff':''}}" bindtap="this_choose">小程序</view>
         <view class="menu_item font26 color6" data-id="2" bindtap="this_choose">小程序</view>
          <view class="menu_item font26 color6" data-id="3" bindtap="this_choose">小程序</view>
-        <view class="menu_item font26 color6" data-id="4" bindtap="this_choose">小程序</view>
-        <view class="menu_item font26 color6" data-id="5" bindtap="this_choose">小程序</view>
       </view>
     </view>
     <view class="sort_module">
       <view class="font30" style="width:100%;height:98rpx;line-height: 106rpx;">行业</view>
-      <view class="menu_all flexRowBetween">
-        <view class="menu_item font26 color6">小程序</view>
-        <view class="menu_item font26 color6">小程序</view>
-        <view class="menu_item font26 color6">小程序</view>
-         <view class="menu_item font26 color6">小程序</view>
-        <view class="menu_item font26 color6">小程序</view>
-        <view class="menu_item font26 color6">小程序</view>
+      <view class="menu_all flex">
+        <view class="menu_item font26 color6" data-id="0" bindtap="this_choose1" style="{{currentId1==0?'background:#dcfcff':''}}">小程序</view>
+        <view class="menu_item font26 color6" data-id="1" bindtap="this_choose1" style="{{currentId1==1?'background:#dcfcff':''}}">小程序</view>
       </view>
     </view>
     <view class="sort_module">
       <view class="font30" style="width:100%;height:98rpx;line-height: 106rpx;">行业</view>
-      <view class="menu_all flexRowBetween">
-        <view class="menu_item font26 color6">小程序</view>
-        <view class="menu_item font26 color6">小程序</view>
-        <view class="menu_item font26 color6">小程序</view>
-         <view class="menu_item font26 color6">小程序</view>
-        <view class="menu_item font26 color6">小程序</view>
-        <view class="menu_item font26 color6">小程序</view>
+      <view class="menu_all flex">
+        <view class="menu_item font26 color6" data-id="0" bindtap="this_choose2" style="{{currentId2==0?'background:#dcfcff':''}}">小程序</view>
+        <view class="menu_item font26 color6" data-id="1" bindtap="this_choose2" style="{{currentId2==1?'background:#dcfcff':''}}">小程序</view>
+       
       </view>
     </view>
   </view>

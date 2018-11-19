@@ -7,7 +7,9 @@ const token = new Token();
 Page({
   data: {
     is_show:false,
-    is_current:0,
+    currentId:0,
+    currentId1:0,
+    currentId2:0,
   },
   //事件处理函数
   preventTouchMove:function(e) {
@@ -21,6 +23,16 @@ Page({
   this_choose(e){
     this.setData({
       currentId:e.currentTarget.dataset.id,
+    })
+  },
+  this_choose1(e){
+    this.setData({
+      currentId1:e.currentTarget.dataset.id,
+    })
+  },
+  this_choose2(e){
+    this.setData({
+      currentId2:e.currentTarget.dataset.id,
       is_show:false,
     })
   },
